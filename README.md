@@ -81,15 +81,15 @@ deep-protein-modeling-progen-prottrans/
 ### ProGen Model (Python Notebook Plots)
 
 #### Secondary-Structure Accuracy vs Conditioning Tags
-![Secondary Structure Accuracy](Plots/Python%20Notebook%20Plots/ProGen/progen_secondary_structure_accuracy_conditioning_tags.png)
+![Secondary Structure Accuracy](Python%20Notebook%20Plots/ProGen/progen_secondary_structure_accuracy_conditioning_tags.png)
 > Accuracy improves with more conditioning tags used in ProGen sequence generation.
 
 #### Conformational Energies: ProGen vs Mutation Baselines
-![Conformational Energies](Plots/Python%20Notebook%20Plots/ProGen/progen_conformational_energies_mutations.png)
+![Conformational Energies](Python%20Notebook%20Plots/ProGen/progen_conformational_energies_mutations.png)
 > Boxplot comparing conformational energy deviations across different mutation baselines.
 
 #### Log-Likelihood Scores of Generated Sequences
-![Log-Likelihood Scores](Plots/Python%20Notebook%20Plots/ProGen/progen_generated_sequence_loglikelihood.png)
+![Log-Likelihood Scores](Python%20Notebook%20Plots/ProGen/progen_generated_sequence_loglikelihood.png)
 > Log-likelihood distribution across generated sequences showing plausibility levels.
 
 ---
@@ -97,19 +97,19 @@ deep-protein-modeling-progen-prottrans/
 ### ProtTrans Model (Python Notebook Plots)
 
 #### Confusion Matrix: Protein Localization Prediction
-![Confusion Matrix Localization](Plots/Python%20Notebook%20Plots/ProtTrans/prottrans_confusion_matrix_localization.png)
+![Confusion Matrix Localization](Python%20Notebook%20Plots/ProtTrans/prottrans_confusion_matrix_localization.png)
 > Confusion matrix showing classification performance based on embeddings.
 
 #### Cosine Similarity Heatmap of Embeddings
-![Cosine Similarity Heatmap](Plots/Python%20Notebook%20Plots/ProtTrans/prottrans_cosine_similarity_embeddings.png)
+![Cosine Similarity Heatmap](Python%20Notebook%20Plots/ProtTrans/prottrans_cosine_similarity_embeddings.png)
 > Cosine similarity visualization between protein embeddings extracted using ProtTrans.
 
 #### PCA Projection of Protein Embeddings
-![PCA Projection](Plots/Python%20Notebook%20Plots/ProtTrans/prottrans_pca_projection_embeddings.png)
+![PCA Projection](Python%20Notebook%20Plots/ProtTrans/prottrans_pca_projection_embeddings.png)
 > PCA projection showing separation of protein classes based on embeddings.
 
 #### UMAP Projection of Protein Embeddings
-![UMAP Projection](Plots/Python%20Notebook%20Plots/ProtTrans/prottrans_umap_projection_embeddings.png)
+![UMAP Projection](Python%20Notebook%20Plots/ProtTrans/prottrans_umap_projection_embeddings.png)
 > UMAP projection illustrating tighter neighborhood structures among protein classes.
 
 ---
